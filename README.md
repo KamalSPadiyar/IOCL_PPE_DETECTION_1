@@ -1,12 +1,11 @@
-# PPE Safety Kit Object Detection using YOLO
-
+# IOCL PPE Safety Detection System using YOLO
 
 ## Overview
-This project aims to detect PPE safety kits (Personal Protective Equipment) using YOLO (You Only Look Once) object detection algorithm. The model can detect various types of  equipment including 'Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone','Safety Vest', 'machinery', 'vehicle' .The target audience for this project includes individuals or organizations who want to ensure the safety of their employees or people working in hazardous environments.
+This project is developed for IOCL (Indian Oil Corporation Limited) to detect PPE safety kits (Personal Protective Equipment) using YOLO (You Only Look Once) object detection algorithm. The model can detect various types of equipment including 'Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone','Safety Vest', 'machinery', 'vehicle'. The target audience for this project includes organizations who want to ensure the safety of their employees working in hazardous industrial environments.
 
 
 ## Dataset
-We used the PPE detection dataset available on Roboflow for training our model. The dataset contains images of people wearing PPE equipment in different environments.Dataset is annotated and have classes = `['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone','Safety Vest', 'machinery','vehicle']` . Training set contains 2.6k images , validation set contains 114 images and Testing set contains 82 images. Input dimensions of single image is 640x640. 
+The PPE detection dataset available on Roboflow was used for training the model. The dataset contains images of people wearing PPE equipment in different industrial environments. Dataset is annotated and have classes = `['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone','Safety Vest', 'machinery','vehicle']` . Training set contains 2.6k images , validation set contains 114 images and Testing set contains 82 images. Input dimensions of single image is 640x640. 
 
 ## Tech-Stack  : 
 
@@ -20,7 +19,7 @@ We used the PPE detection dataset available on Roboflow for training our model. 
 
 ## Installation : 
 
-- clone the repository : `$ git clone https://github.com/Vinayakmane47/PPE_detection_YOLO.git`
+- clone the repository : `$ git clone https://github.com/KamalSPadiyar/IOCL_PPE_DETECTION_1.git`
 - create a conda environment : `$ conda create -n myyolo python=3.10 -y`
 - Intall requirements : `$ pip install -r requirements.txt`
 - Run main.py : `python app.py`
